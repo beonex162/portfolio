@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Толкачев Тимофей - Разработка сайтов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <div class="navbar">
+        <a href="./index.html" class="logo">
+            <img src="img/1765465838.png" alt="Логотип" class="logopht">
+        </a>
+    
+    <nav class="navbar-nav">
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                <a href="#about" class="navbar-link">Обо мне</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#uslugi" class="navbar-link">Услуги</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#portfolio" class="navbar-link">Мои работы</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#feedback" class="navbar-link">Обратная связь</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+</header>
+<div class="obomne" id="about">
+   <h1 class="title1">Обо мне</h1>
+   <div class="obomne">
+   <p> Меня зовут - <strong>Толкачев Тимофей</strong>, я - начинающий верстальщик который совмещает обучение на первом курсе по специальности "Программирование" с активной практической разработкой. В моём арсенале уже есть уверенное владение базовыми технологиями (HTML, CSS), и сейчас я продолжаю углубляться в эту сферу больше.</p>
+   <p class="otstup1">Для оттачивания навыков постоянно создаю учебные проекты. Например, не так давно, на день матери мы делали открытки своим любимым мамам, на сайте во вкладке "Мои работы" она есть. Также я делал свой первый большой многостраничный сайт "Визитка".</p>
+   <p class="otstup1">Также я могу разработать ваш сайт, или же создать для него макет в Figma, с этим вы можете ознакомится в разделе "Услуги"</p>
+   </div>
+   </div>
+   <hr>
+    <div class="container">
+        <!-- Услуги -->
+         
+       <h2 class="section-title" id="uslugi">Услуги</h2>
+        
+        <div class="services">
+            <div class="service-card">
+                <img src="img/logo-app-figma.avif" alt="" class="logofigma">
+                <h3>Макет в Figma</h3>
+                <p>Любой макет под ваш сайт</p>
+                <a href="#feedback" class="btn btn-service">Выбрать услугу</a>
+            </div>
+            
+            <div class="service-card">
+                <img src="img/photo_2025-12-14_23-52-06.jpg" alt="" class="imgcode">
+                <h3>Сайт на HTML</h3>
+                <p>Любой сайт для вашей компании</p>
+                <a href="#feedback" class="btn btn-service">Выбрать услугу</a>
+            </div>
+            
+            <div class="service-card">
+                <img src="img/1765738543.png" alt="" class="fixcode">
+                <h3>Корректировка сайта</h3>
+                <p>Уберу ошибки, починю ваш сайт!</p>
+                <a href="#feedback" class="btn btn-service">Выбрать услугу</a>
+            </div>
+        </div>
+        </div>
+<hr>
+        <div class="divider"></div>
+
+        <!-- Портфолио -->
+        <h2 class="section-title" id="portfolio">Мои работы</h2>
+<div class="portfolio">
+
+<div class="portfolio">
+    <div class="portfolio-item">
+        <img src="img/photo_2025-12-15_00-00-54.jpg" alt="Открытка ко дню матери" class="portfolio-img">
+        <div class="portfolio-content">
+            <h4>Открытка на день матери</h4>
+            <p>Красивая открытка для любимых мам!</p>
+            <a href="https://beonex162.github.io/otkritka-mame/" class="btn btn-service">Перейти на сайт</a>
+        </div>
+    </div>
+    
+    <div class="portfolio-item">
+        <img src="img/vizit.jpg" alt="Сайт Визитка" class="portfolio-img">
+        <div class="portfolio-content">
+            <h4>Сайт Визитка</h4>
+            <p>Первый мой большой сайт</p>
+            <a href="https://beonex162.github.io/---/" class="btn btn-service">Перейти на сайт</a>
+        </div>
+    </div>
+    
+    <div class="portfolio-item">
+        <img src="img/pchel.jpg" alt="Сайт с пчелками" class="portfolio-img">
+        <div class="portfolio-content">
+            <h4>Сайт с пчелками</h4>
+            <p>Тематический сайт про пчелок</p>
+            <a href="https://beonex162.github.io/sitebeeonex1/" class="btn btn-service">Перейти на сайт</a>
+        </div>
+    </div>
+</div>
+</div>
+
+        <!-- Контакты -->
+        <div class="contact">
+            <div class="contact" id="feedback">
+    <h2 class="section-title">Напишите мне!</h2>
+            <div class="contact-content">
+                <p>Мы обсудим ваш сайт/идею/макет и подберем для вас оптимальные решения!</p>
+                
+                <form id="" class="contact-form">
+                    <div class="form-group">
+                        <label for="service">Выбрать услугу</label>
+                        <select id="service" name="service">
+                            <option value="">Выберите услугу</option>
+                            <option value="simple">Простой сайт</option>
+                            <option value="medium">Сайт для полупрофессионалов</option>
+                            <option value="complex">Сложный проект</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Ваш телефон</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Введите ваш телефон">
+                    </div>
+                    
+                    <button type="submit" class="btn">Отправить заявку</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="./index.html" class="logo">
+            <p class="copyright"><img src="img/1765465838.png" alt="" class="logopht"></p>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        // Простая обработка формы
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Заявка отправлена! Я свяжусь с вами в ближайшее время.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
